@@ -1,0 +1,51 @@
+﻿@model UniversityManagementWebDotNet.Models.DAO.Faculty
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Faculty</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FacultyName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FacultyName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FacultyCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FacultyCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FacultyEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FacultyEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FacultyContactNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FacultyContactNumber)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

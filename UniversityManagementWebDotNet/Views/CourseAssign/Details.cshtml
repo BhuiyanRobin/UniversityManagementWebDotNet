@@ -1,0 +1,75 @@
+﻿@model UniversityManagementWebDotNet.Models.DAO.CourseAssign
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CourseAssign</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ACourse.CourseName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ACourse.CourseName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AFaculty.FacultyName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AFaculty.FacultyName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ARoom.RoomName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ARoom.RoomName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ASemister.SemistereName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ASemister.SemistereName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ATimeSlot.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ATimeSlot.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AWeekDaysS.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AWeekDaysS.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Section)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Section)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,81 @@
+﻿@model UniversityManagementWebDotNet.Models.DAO.CourseAssign
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>CourseAssign</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ACourse.CourseName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ACourse.CourseName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AFaculty.FacultyName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AFaculty.FacultyName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ARoom.RoomName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ARoom.RoomName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ASemister.SemistereName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ASemister.SemistereName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ATimeSlot.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ATimeSlot.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AWeekDaysS.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AWeekDaysS.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Section)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Section)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

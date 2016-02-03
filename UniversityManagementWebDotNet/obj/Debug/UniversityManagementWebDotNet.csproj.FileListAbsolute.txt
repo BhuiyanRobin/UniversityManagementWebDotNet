@@ -1,0 +1,130 @@
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\UniversityManagementWebDotNet.dll.config
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\UniversityManagementWebDotNet.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\UniversityManagementWebDotNet.pdb
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Antlr3.Runtime.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.SqlServer.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Microsoft.Web.Infrastructure.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Newtonsoft.Json.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Helpers.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Mvc.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Optimization.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Razor.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Deployment.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Razor.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\WebGrease.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.xml
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.SqlServer.xml
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Helpers.xml
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Mvc.xml
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Razor.xml
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.xml
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Deployment.xml
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Razor.xml
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Optimization.xml
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Newtonsoft.Json.xml
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Antlr3.Runtime.pdb
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.csprojResolveAssemblyReference.cache
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.dll
+I:\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.pdb
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\UniversityManagementWebDotNet.dll.config
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\UniversityManagementWebDotNet.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\UniversityManagementWebDotNet.pdb
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Antlr3.Runtime.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.SqlServer.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Newtonsoft.Json.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Helpers.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Mvc.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Optimization.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Razor.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Deployment.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Razor.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\WebGrease.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.xml
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.SqlServer.xml
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Helpers.xml
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Mvc.xml
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Razor.xml
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.xml
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Deployment.xml
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Razor.xml
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Optimization.xml
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Newtonsoft.Json.xml
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Antlr3.Runtime.pdb
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.dll
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.pdb
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.Migrations.AllPastWork.resources
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.csproj.GenerateResource.Cache
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.Migrations.logIn.resources
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.Migrations.MessageSend.resources
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.Migrations.category.resources
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.Migrations.message.resources
+E:\Project\project\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.csprojResolveAssemblyReference.cache
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\UniversityManagementWebDotNet.dll.config
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\UniversityManagementWebDotNet.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\UniversityManagementWebDotNet.pdb
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Antlr3.Runtime.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.SqlServer.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Microsoft.Web.Infrastructure.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Newtonsoft.Json.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Helpers.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Optimization.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Razor.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Deployment.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Razor.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\WebGrease.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.xml
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.SqlServer.xml
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Helpers.xml
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Razor.xml
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.xml
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Deployment.xml
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Razor.xml
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Optimization.xml
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Newtonsoft.Json.xml
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Antlr3.Runtime.pdb
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.Migrations.a.resources
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.csproj.GenerateResource.Cache
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.pdb
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Mvc.dll
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Mvc.xml
+I:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.csprojResolveAssemblyReference.cache
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\UniversityManagementWebDotNet.dll.config
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\UniversityManagementWebDotNet.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\UniversityManagementWebDotNet.pdb
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Antlr3.Runtime.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.SqlServer.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Microsoft.Web.Infrastructure.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Newtonsoft.Json.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Helpers.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Mvc.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Optimization.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Razor.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Deployment.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Razor.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\WebGrease.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.xml
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\EntityFramework.SqlServer.xml
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Helpers.xml
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Mvc.xml
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Razor.xml
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.xml
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Deployment.xml
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.WebPages.Razor.xml
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\System.Web.Optimization.xml
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Newtonsoft.Json.xml
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\bin\Antlr3.Runtime.pdb
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.csprojResolveAssemblyReference.cache
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.Migrations.a.resources
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.csproj.GenerateResource.Cache
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.dll
+J:\Working website\UniversityManagementWebDotNet\UniversityManagementWebDotNet\obj\Debug\UniversityManagementWebDotNet.pdb

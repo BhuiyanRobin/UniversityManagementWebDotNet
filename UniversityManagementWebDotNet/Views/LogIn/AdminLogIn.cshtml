@@ -1,0 +1,53 @@
+﻿@model UniversityManagementWebDotNet.Models.DAO.AdminLogIn
+
+@{
+    ViewBag.Title = "AdminLogIn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div align="center" style="margin-top: 40px;">
+    <img src="~/Image/ewuweb.GIF" style="width: 125px;height: 77px;"/>
+    <img src="~/Image/banner.GIF"alt="banner"/>
+</div>
+
+<h2>Admin LogIn</h2>
+
+@using (Html.BeginForm("AdminLogIn", "Admin", FormMethod.Post))
+{
+    //This is for closeing the form tag
+    @Html.AntiForgeryToken()   //this is for prevent attack form CSRF
+    @Html.ValidationSummary(true)
+
+    if (@ViewBag.Message != null)
+    {
+        <div style="border: 1px solid red">
+            @ViewBag.Message
+        </div>
+    }
+    <div align="center" class="table-bordered">
+
+        <table>
+            <tr style="height: 100px;">
+                <td>@Html.LabelFor(a => a.UserName)</td>
+                <td>@Html.TextBoxFor(a => a.UserName, new { @class = "input-group form-control" })</td>
+                <td>@Html.ValidationMessageFor(a => a.UserName)</td>
+            </tr>
+            <tr style="height: 100px;">
+                <td>@Html.LabelFor(a => a.Password)</td>
+                <td>@Html.PasswordFor(a => a.Password, new { @class = "input-group form-control" })</td>
+                <td>@Html.ValidationMessageFor(a => a.Password)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Login" style="background-color: aqua;margin-bottom: 30px; "/>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+}
+
+@section Scripts{
+    @Scripts.Render("~/Scripts/jquery.validate.js")
+    @Scripts.Render("~/Scripts/jquery.validate.unobtrusive.js")
+}

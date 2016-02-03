@@ -1,0 +1,23 @@
+﻿@model UniversityManagementWebDotNet.Models.DAO.AdminLogIn
+
+@{
+    ViewBag.Title = "AfterLogIn";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Admin AfterLogIn</h2>
+
+@if (Session["UserName"] != null)
+{
+
+    <text>
+        Success!       @Session["UserName"].ToString();
+        <button>@Html.ActionLink("Course","Home" , "Course")</button>
+        <button>@Html.ActionLink("Room", "Home", "Room")</button>
+        <button>@Html.ActionLink("Semister", "Home", "Semister")</button>
+        <button>@Html.ActionLink("Course Assign", "Create", "CourseAssign")</button>
+<button>@Html.ActionLink("Time Slot","Create","TimeSlot")</button>
+<button class="btn btn-block">@Html.ActionLink("Faculty","Home","Faculty")</button>
+
+    </text>
+}

@@ -1,0 +1,35 @@
+﻿@model UniversityManagementWebDotNet.Models.DAO.TimeSlot
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TimeSlot</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TimeForm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TimeForm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TimeTo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TimeTo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

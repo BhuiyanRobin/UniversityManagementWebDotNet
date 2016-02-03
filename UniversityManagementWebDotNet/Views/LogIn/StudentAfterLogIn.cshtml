@@ -1,0 +1,18 @@
+﻿@model UniversityManagementWebDotNet.Models.DAO.LogIn
+
+@{
+    ViewBag.Title = "AfterLogIn";
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+<h2>AfterLogIn</h2>
+
+@if (Session["UserName"] != null)
+{
+
+    <text>
+        Success!       @Session["UserName"].ToString();
+        
+    </text>
+}
+

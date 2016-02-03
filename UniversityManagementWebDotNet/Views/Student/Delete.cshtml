@@ -1,0 +1,201 @@
+﻿@model UniversityManagementWebDotNet.Models.DAO.Student
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UniId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UniId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nickname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nickname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SscRegistration)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SscRegistration)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SscPassingYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SscPassingYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SscBoard)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SscBoard)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SscResult)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SscResult)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HscRegistration)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HscRegistration)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HscPassingYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HscPassingYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HscBoard)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HscBoard)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HscResult)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HscResult)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FathersVoterId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FathersVoterId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FathersName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FathersName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FathersDegignation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FathersDegignation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FathersContactNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FathersContactNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FathersEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FathersEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MothersVoterId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MothersVoterId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MothersName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MothersName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MothersDegignation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MothersDegignation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MothersContactNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MothersContactNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MothersEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MothersEmail)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

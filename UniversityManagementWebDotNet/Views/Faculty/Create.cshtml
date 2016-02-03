@@ -1,0 +1,81 @@
+﻿@model UniversityManagementWebDotNet.Models.DAO.Faculty
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Faculty</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        
+        <div>
+            <div align="center">
+                <table class="table table-responsive">
+                    <tr>
+                        <td class="col-md-2" style="background-color: darkslategray ;color: white;">
+                            <h6><strong>Insert Faculty Information</strong></h6>
+                        </td>
+                        <td class="col-md-5" style="background-color: aqua">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.FacultyName, new { @class = "control-label col-md-3" })
+                                <div class="col-md-9">
+                                    @Html.EditorFor(model => model.FacultyName)
+                                    @Html.ValidationMessageFor(model => model.FacultyName)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.FacultyCode, new { @class = "control-label col-md-3" })
+                                <div class="col-md-9">
+                                    @Html.EditorFor(model => model.FacultyCode)
+                                    @Html.ValidationMessageFor(model => model.FacultyCode)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.FacultyEmail, new { @class = "control-label col-md-3" })
+                                <div class="col-md-9">
+                                    @Html.EditorFor(model => model.FacultyEmail)
+                                    @Html.ValidationMessageFor(model => model.FacultyEmail)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.FacultyContactNumber, new { @class = "control-label col-md-3" })
+                                <div class="col-md-9">
+                                    @Html.EditorFor(model => model.FacultyContactNumber)
+                                    @Html.ValidationMessageFor(model => model.FacultyContactNumber)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" value="Create" class="btn btn-default" />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

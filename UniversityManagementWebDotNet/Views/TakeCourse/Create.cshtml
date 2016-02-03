@@ -1,0 +1,203 @@
+﻿@model UniversityManagementWebDotNet.Models.DAO.TakeCourse
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>TakeCourse</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        <div>
+            <div align="center">
+                <table class="table table-responsive">
+                    <tr>
+                        <td class="col-md-2" style="background-color: darkslategray ;color: white;">
+                            <h6><strong>Insert Proper Information</strong></h6>
+                        </td>
+                        <td class="col-md-5" style="background-color: aqua">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.SemisterId, "SemisterId", new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.DropDownList("SemisterId", String.Empty)
+                                    @Html.ValidationMessageFor(model => model.SemisterId)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.StudentId, new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.StudentId)
+                                    @Html.ValidationMessageFor(model => model.StudentId)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.CourseId, "CourseId", new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.DropDownList("CourseId", String.Empty)
+                                    @Html.ValidationMessageFor(model => model.CourseId)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class=" control-label col-md-2">Section</label>
+                                <div class="col-md-10">
+                                    <div class="col-md-10">
+                                        <select id="Section">
+                                            <option></option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="button" value="Add" id="Add" class="btn btn-default" style="background-color: darkslategray; color: azure" />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        
+        <div>
+            <table class="table table-bordered table-hover" id="addCourse">
+                <thead>
+                    <tr>
+                        <td>SL</td>
+                        <td>Course Code</td>
+                        <td>section</td>
+                        <td>credit</td>
+                        <td>Tution Fee</td>
+                        <td>Time Slot</td>
+                        <td>Weekday</td>
+                        <td>Room</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" style="background-color: darkslategray; color: azure" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+
+    <script>
+        $(document).ready(function () {
+
+            var takeCourse = new Array();
+            var sl = 0;
+            $("#Add").click(function () {
+
+
+                var semisterId = $("#SemisterId").val();
+                var studentId = $("#StudentId").val();
+                var courseId = $("#CourseId option:selected").val();
+                var section = $("#Section option:selected").val();
+                var course = { semisterId: semisterId, studentId: studentId, courseId: courseId, section: section };
+                takeCourse.push(course);
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("TakenCourseInformation", "TakeCourse")',
+                    contentType: "application/json;charset=utf-8",
+                    data: JSON.stringify(course),
+                    dataType: "json",
+                    success: function (data) {
+                        sl = sl + 1;
+                        $('#addCourse').append("<tr><td> " + sl + "</td>+<td> " + data.CourseCode + "</td>+<td> " + data.Section + "</td>+<td> " + data.Credit + "</td>+<td> " + data.Amount + "</td>+<td> " + data.CourseTime + "</td>+<td> " + data.DayCoed + "</td><td>" + data.RoomNumber + "</td></tr>");
+                    },
+                });
+            });
+
+
+
+
+
+            $.ajax({
+                type: "GET",
+                url: '@Url.Action("AllSemister","CourseAssign")',
+                contentType: "application/json;charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    $('#SemisterId').empty();
+                    $.each(data, function (index, value) {
+                        $('#SemisterId').append($('<option/>', {
+                            value: value.Id,
+                            text: value.Name,
+
+                        }));
+                    });
+                },
+
+            });
+
+            $('#CourseId').change(function () {
+                var optionSelected = $(this).find("option:selected");
+                var mydata = { courseId: optionSelected.val() };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("FindThisCourse", "TakeCourse")',
+                    contentType: "application/json;charset=utf-8",
+                    data: JSON.stringify(mydata),
+                    dataType: "json",
+                    success: function (data) {
+                        $('#Section').empty().append('<option  value="">Select Section</option>');
+                        $.each(data, function (index, value) {
+                            $('#Section').append($('<option/>', {
+                                value: value.Section,
+                                text: value.Section
+                            }));
+                        });
+                    },
+                });
+            });
+
+
+
+
+
+            $("#save").click(function () {
+                var mydata = names;
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("Chk", "AllocateMedicine")',
+                    contentType: "application/json;charset=utf-8",
+                    data: JSON.stringify(mydata),
+                    dataType: "json",
+                    success: function (data) {
+                        window.location.reload();
+                    },
+                });
+
+            });
+
+
+
+
+
+
+        });
+    </script>
+}
+
+
